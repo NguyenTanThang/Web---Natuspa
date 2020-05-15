@@ -97,4 +97,27 @@
     padding: 20px;
     padding-top: 50px;
   }
+
+  #appointment h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar .nav-link {
+    margin-left: 20px;
+    border-bottom: none;
+  }
+
+  .about-img {
+    width: 50%;
+  }
+
+  .about-content { 
+    width: 50%;
+  }
+
+  .gallery-item img{
+    width: 100%;
+  }
 }
